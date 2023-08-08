@@ -7,7 +7,9 @@ edition = "2021"
 
 [dependencies]
 async-recursion = "1.0.4"
+async-trait = "0.1.72"
 lazy_static = "1.4.0"
+mockall = "0.11.4"
 reqwest = "0.11.18"
 scraper = "0.17.1"
 serde = { version = "1.0.183", features = ["derive"] }
